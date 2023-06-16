@@ -6,9 +6,7 @@ import Button from "~/components/Button.vue";
 import Lifecycle from "~/components/Lifecycle.vue";
 export default {
   components: {
-    TodoList,
     Button,
-    Lifecycle,
   },
   data() {
     return {

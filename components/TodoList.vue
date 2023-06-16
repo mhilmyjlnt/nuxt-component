@@ -68,11 +68,11 @@ export default {
         return this.tasks
       }
     },
-    getData async function () {
-      this.isLoading = true;
-      await getFromApi();
-      this.isLoading = false;
-    }
+    // getData async function () {
+    //   this.isLoading = true;
+    //   await getFromApi();
+    //   this.isLoading = false;
+    // }
   },
   computed: {
     resultQuery() {
